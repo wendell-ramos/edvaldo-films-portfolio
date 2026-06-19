@@ -582,6 +582,18 @@ function App() {
         </div>
       </section>
 
+      <footer className="site-footer">
+        <span>Desenvolvido por</span>
+        <a
+          href="https://wendell-ramos.github.io/portfolio-wendell-ramos/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Wendell Ramos
+          <ArrowUpRight size={15} aria-hidden="true" />
+        </a>
+      </footer>
+
       <FloatingBrief />
 
       {selectedProject && (

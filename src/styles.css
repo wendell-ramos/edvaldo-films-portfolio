@@ -973,6 +973,34 @@ h1 {
   background: #ffffff;
 }
 
+.site-footer {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 22px clamp(18px, 4vw, 64px);
+  border-top: 1px solid rgba(248, 244, 236, 0.12);
+  background: #0d0d0d;
+  color: rgba(248, 244, 236, 0.54);
+  font-size: 0.82rem;
+}
+
+.site-footer a {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: #f8f4ec;
+  font-weight: 700;
+  transition: color 180ms ease;
+}
+
+.site-footer a:hover,
+.site-footer a:focus-visible {
+  color: #b9ff3f;
+}
+
 .floating-brief {
   position: fixed;
   right: clamp(16px, 3vw, 34px);
