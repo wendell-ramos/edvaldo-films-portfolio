@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.vite/
+.analysis/
+/vídeos/
+/fotos/
+*.log
+.env
+.env.*
+!.env.example
+/IMG_0384.MOV
+/IMG_0385.MOV
