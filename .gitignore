@@ -10,3 +10,8 @@ dist/
 !.env.example
 /IMG_0384.MOV
 /IMG_0385.MOV
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
