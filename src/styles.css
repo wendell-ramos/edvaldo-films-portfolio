@@ -92,30 +92,22 @@ a {
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
   min-width: max-content;
 }
 
-.brand span {
-  display: grid;
-  width: 42px;
-  height: 42px;
-  place-items: center;
-  border: 1px solid rgba(248, 244, 236, 0.32);
-  background: rgba(13, 13, 13, 0.48);
-  font-weight: 800;
+.brand img {
+  display: block;
+  width: clamp(128px, 12vw, 168px);
+  height: 58px;
+  object-fit: contain;
+  object-position: left center;
 }
 
-.brand strong,
 nav a,
 .project-info footer,
 .filter-bar button {
   letter-spacing: 0;
   text-transform: uppercase;
-}
-
-.brand strong {
-  font-size: 0.9rem;
 }
 
 nav {
@@ -1291,9 +1283,13 @@ h1 {
     position: absolute;
   }
 
-  .brand strong,
   .floating-brief {
     display: none;
+  }
+
+  .brand img {
+    width: 116px;
+    height: 48px;
   }
 
   nav {

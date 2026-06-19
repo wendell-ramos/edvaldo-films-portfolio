@@ -244,9 +244,8 @@ function App() {
       <div className="spotlight" aria-hidden="true" />
 
       <header className="site-header">
-        <a className="brand" href="#top" aria-label="Início">
-          <span>EF</span>
-          <strong>Edvaldo Films</strong>
+        <a className="brand" href="#top" aria-label="Início - Edvaldo Films">
+          <img src="./media/edvaldo-films-logo.png" alt="Edvaldo Films" />
         </a>
         <nav aria-label="Navegação principal">
           <a href="#works">Trabalhos</a>

@@ -1,36 +1,73 @@
-# Edvaldo Films
+<p align="center">
+  <img src="./public/media/edvaldo-films-brand.jpg" alt="Edvaldo Films" width="680">
+</p>
 
-Portfolio audiovisual de Edvaldo Films, com trabalhos de drone, Reels,
-comerciais e lifestyle.
+<h1 align="center">Portfólio Edvaldo Films</h1>
 
-## Desenvolvimento
+<p align="center">
+  Portfólio audiovisual de Edvaldo Films, filmmaker de João Pessoa/PB.<br>
+  Reels, comerciais, lifestyle e captação aérea com foco em marcas e redes sociais.
+</p>
+
+<p align="center">
+  <a href="https://wendell-ramos.github.io/edvaldo-films-portfolio/"><strong>Acessar portfólio</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://www.instagram.com/edvaldofilms/">Instagram</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.youtube.com/@edvaldocordeiro11">YouTube</a>
+</p>
+
+## Sobre
+
+O site apresenta projetos reais em uma experiência imersiva, responsiva e
+orientada a vídeo. A navegação reúne trabalhos em destaque, captações com drone,
+bastidores, processo criativo e canais oficiais de contato.
+
+> **Criar / Registrar / Marcar**
+
+## Recursos
+
+- Hero em vídeo com reprodução otimizada.
+- Portfólio filtrável por Reels, comerciais e lifestyle.
+- Cases com vídeo, contexto e detalhes da produção.
+- Seção de captação aérea e comparação entre bastidor e resultado.
+- Animações responsivas e suporte a preferência por movimento reduzido.
+- Contato direto pelo Instagram e YouTube.
+
+## Tecnologias
+
+- React
+- Vite
+- JavaScript
+- CSS
+- Lucide React
+- GitHub Actions e GitHub Pages
+
+## Executar localmente
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Build
+Para validar a versão de produção:
 
 ```bash
 npm run build
 npm run preview
 ```
 
-## Publicar no GitHub Pages
+## Publicação
 
-1. Crie um repositorio vazio no GitHub.
-2. Use a branch principal `main`.
-3. Envie os arquivos deste projeto para o repositorio.
-4. No GitHub, abra `Settings > Pages`.
-5. Em `Build and deployment > Source`, selecione `GitHub Actions`.
-6. Abra a aba `Actions` e acompanhe o workflow `Deploy GitHub Pages`.
-
-Depois de cada envio para a branch `main`, o site sera publicado
+O workflow em `.github/workflows/deploy-pages.yml` gera e publica o projeto no
+GitHub Pages. Cada envio para a branch `main` inicia uma nova publicação
 automaticamente.
 
-## Arquivos locais
+As mídias otimizadas usadas pelo site ficam em `public/media`. Arquivos
+originais, análises, dependências e builds locais permanecem fora do repositório
+por meio do `.gitignore`.
 
-Os videos e fotos originais, arquivos de analise, logs, dependencias e builds
-locais estao no `.gitignore`. Somente as versoes otimizadas de midia em
-`public/media` devem ser publicadas.
+## Créditos
+
+- Conteúdo audiovisual e identidade: **Edvaldo Films**
+- Desenvolvimento: **Wendell Ramos**
